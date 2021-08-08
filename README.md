@@ -11,6 +11,5 @@ docker run mariadb mysqldump --databases imdb_full --host relational.fit.cvut.cz
 
 Start up MariaDB server on the local machine in a container
 ```
-docker-compose -f stack.yml up -d
+docker-compose up -d
 ```
-
